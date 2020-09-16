@@ -1,30 +1,42 @@
-- Download repository
+1. 現在のGithubファイルをダウンロード
   
-git clone https://github.com/tsukaharakazuki/td.git
+`$ git clone https://github.com/tsukaharakazuki/td.git`
+ 
+1. branchの作成 
+
+- branchの確認
   
-- List branches
+`$ git branch`
   
-git branch
-  
-- Create new branch (remove_directoryっていう名前のブランチ)
-git checkout -b remove_directory origin/master
-  
-- Remove remove remove_directory
-rm -rf tieup_report_gtm
+- 新しいbranchを作成 (以下ではremove_directoryという名前のブランチ)
+
+`$ git checkout -b remove_directory origin/master`
+
+1. ファイルの削除
+
+`$ rm -rf tieup_report_gtm`
   
 - 作業ログ確認
-git status
+
+`$ git status`
   
-- Git remove
-git rm -r tieup_report_gtm
-  
-- Git commit （作業内容を確定）
-git commit -m "remove tieup_report_gtm"
-  
+- Githuからも削除_Git remove
+
+`$ git rm -r tieup_report_gtm`
+
+1. 作業内容を確定
+
+- Git commit 
+`$ git commit -m "remove tieup_report_gtm"`
+
+1. 作業をGitに送信
+
 - Push
-git push origin remove_directory
+`$ git push origin remove_directory`
   
->Guiで作業
+1. Githubホームページ上で作業
+
+>参考
   
 $ git checkout master
   
