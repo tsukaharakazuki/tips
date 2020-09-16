@@ -1,8 +1,8 @@
-1. 現在のGithubファイルをダウンロード
+## 現在のGithubファイルをダウンロード
   
 `$ git clone https://github.com/tsukaharakazuki/td.git`
  
-1. branchの作成 
+## branchの作成 
 
 - branchの確認
   
@@ -12,7 +12,7 @@
 
 `$ git checkout -b remove_directory origin/master`
 
-1. ファイルの削除
+## ファイルの削除
 
 `$ rm -rf tieup_report_gtm`
   
@@ -24,18 +24,19 @@
 
 `$ git rm -r tieup_report_gtm`
 
-1. 作業内容を確定
+## 作業内容を確定
 
 - Git commit 
 `$ git commit -m "remove tieup_report_gtm"`
 
-1. 作業をGitに送信
+## 作業をGitに送信
 
 - Push
 `$ git push origin remove_directory`
   
-1. Githubホームページ上で作業
-
+## Githubホームページ上で作業
+  
+  
 >参考
   
 $ git checkout master
