@@ -27,11 +27,13 @@
 ## 作業内容を確定
 
 - Git commit 
+  
 `$ git commit -m "remove tieup_report_gtm"`
 
 ## 作業をGitに送信
 
 - Push
+  
 `$ git push origin remove_directory`
   
 ## Githubホームページ上で作業
