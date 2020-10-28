@@ -4,7 +4,7 @@
  
 ## branchの作成 
 
-- branchの確認
+- branchの確認 ->DLしたフォルダにCD
   
 `$ git branch`
   
